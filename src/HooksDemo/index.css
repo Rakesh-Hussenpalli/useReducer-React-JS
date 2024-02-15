@@ -1,0 +1,27 @@
+h2 {
+    text-align: center;
+    text-transform:capitalize;
+}
+
+.users-data {
+    background-color: rgb(225, 222, 222);
+    margin: 10px 0px;
+    padding: 15px;
+}
+@media screen and (min-width:769px) {
+    .users-data-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+}
+@media screen and (min-width:1024px) {
+    .users-data-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+button{
+    padding:3px 6px;
+    margin:10px 10px 0px 0px;
+}
